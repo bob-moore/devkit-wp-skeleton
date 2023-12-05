@@ -1,0 +1,29 @@
+.sample-acf-block {
+    display: flex;
+    flex-direction: column;
+    gap: var( --acf-block-gap, 20px );
+    padding: var( --acf-block-gap, 20px );
+    background: var( --acf-block-background, #fff );
+    border: var( --acf-block-border, 1px solid #ccc );
+    img.headshot {
+        margin: 0;
+        padding: 0
+    }
+    .name {
+        font-size: 1.25rem;
+        font-weight: 400;
+        margin: 0;
+        padding: 0;
+        line-height: 1;
+    }
+    .title {
+        font-size: .9rem;
+        font-weight: 600;
+        display: inline-block;
+    }
+    .block-content {
+        p:last-child {
+            margin-bottom: 0
+        }
+    }
+}

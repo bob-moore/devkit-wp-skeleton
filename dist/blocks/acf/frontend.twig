@@ -1,0 +1,14 @@
+<div class="{{ [ 'sample-acf-block', block.className ]|join( ' ') }}" data-block="{{ block.id }}">
+    <section class="block-image">
+        <img class="headshot" src="{{fields.image.value.url}}" alt="{{fields.image.value.alt}}" />
+    </section>
+    
+    <section class="block-meta">
+        <h3 class="name">{{fields.name.value}}</h3>
+        <span class="title">{{fields.title.value}}</span>
+    </section>
+
+    <section class="block-content">
+        {{fields.description.value}}
+    </section>
+</div>

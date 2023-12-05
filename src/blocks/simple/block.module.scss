@@ -1,0 +1,63 @@
+.editor {
+
+    :global {
+
+        .overflow-guard {
+            position: relative;
+            overflow: hidden;
+        }
+    }
+}
+
+.inserter > div {
+    width: 100%;
+}
+
+// F7F8FA
+
+.editor-embed {
+    border: 1px solid #ccc;
+
+    .editor-title {
+        background-color: #f5f5f5;
+        padding: 1rem;
+    }
+
+    .topbar {
+        background-color: #f5f5f5;
+        padding: 1rem;
+        display: flex;
+        flex-direction: row;
+        gap: 1rem;
+        align-items: center;
+
+        &:last-child {
+            margin-left: auto;
+        }
+
+        p {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+            margin: 0;
+            flex: 1;
+        }
+    }
+
+    .inner-blocks {
+        padding: 1rem;
+
+        :global {
+
+            .block-list-appender {
+                position: relative;
+                width: 100%;
+            }
+        }
+    }
+}
+
+.preview {
+    background: #fff;
+}
+

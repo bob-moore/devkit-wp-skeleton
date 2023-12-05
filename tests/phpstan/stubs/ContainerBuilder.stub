@@ -1,0 +1,11 @@
+<?php
+
+namespace Devkit\Skeleton\DI;
+
+class ContainerBuilder
+{
+    /**
+     * @return Container
+     */
+    public function build(); 
+}

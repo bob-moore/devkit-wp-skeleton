@@ -1,0 +1,12 @@
+{
+	"apiVersion": 2,
+	"title": "Example ACF Block",
+	"name": "devkit/acf-example",
+	"category": "layout",
+	"icon": "editor-code",
+	"editorScript": "file:./block.tsx",
+	"style": [ "file:./block.css" ],
+	"acf": {
+		"renderTemplate": "render.php"
+	}
+}
