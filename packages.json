@@ -3,7 +3,7 @@
     "description": "WP Plugin/Theme Library",
 	"version": "1.0.0",
     "type": "composer",
-    "minimum-stability": "dev",
+    "stability": "dev",
     "license": "GPL-2.0+ <http://www.gnu.org/licenses/gpl-2.0.txt>",
     "authors": [
         {
