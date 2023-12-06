@@ -1,7 +1,7 @@
 {
     "name": "devkit/wp-skeleton",
     "description": "WP Plugin/Theme Library",
-	"version": "2.0.0",
+	"version": "1.0.0",
     "type": "library",
     "minimum-stability": "dev",
     "license": "GPL-2.0+ <http://www.gnu.org/licenses/gpl-2.0.txt>",
